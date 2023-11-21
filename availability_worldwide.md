@@ -9,8 +9,8 @@ Canadian Point Cloud data is available as open data (COPC, LAZ 1.4) from [natura
 
 ### New Zealand
 
-### USA
+### [USA](https://www.usgs.gov/3d-elevation-program)
 
-Point Cloud data is available as open data (COPC, LAZ 1.4) from USGS. 
+Point Cloud data is available as open data (COPC, LAZ 1.4) from USGS free of charge and without use restrictions. 
 
 An improved national elevation program has the potential to generate $13.5 -billion in new benefits each year once fully operational. [3D Nation Study Final Report](https://www.dewberry.com/services/geospatial-mapping-and-survey/3d-nation-elevation-requirements-and-benefits-study)
