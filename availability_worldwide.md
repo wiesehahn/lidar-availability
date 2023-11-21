@@ -1,8 +1,10 @@
 ## Lidar availability - worldwide
 
-### Canada
+### [Canada](https://open.canada.ca/data/en/dataset/7069387e-9986-4297-9f55-0288e9676947)
 
 Canadian Point Cloud data is available as open data (COPC, LAZ 1.4) from [natural-resources.canada.ca](https://natural-resources.canada.ca/science-and-data/science-and-research/topographic-information/whats-new/new-lidar-point-clouds-product-canada-youve-never-seen-it/24861)
+
+Point cloud files are distributed using the compressed .LAZ / Cloud Optimized Point Cloud (COPC) format.
 
 ### Japan
 
