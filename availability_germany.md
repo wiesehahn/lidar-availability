@@ -34,19 +34,16 @@ Geodata collection, administration and publication in Germany is predominantly o
 
 ### National
 
-According to https://doi.org/10.3390/ijgi6080243 "topographic databases maintained by national mapping agencies are currently the most common nationwide data sets in geo-information", however this is not true for Germany. Until now there is no single data set which is available for entire Germany. However, there are plans to generate such data. The project [Digital Twin Germany](https://www.business-geomatics.com/2022/11/17/zwillinge-gross-gedacht/) aims to acquire high density point cloud data for Germany. The project is run by the *Federal Agency for Cartography and Geodesy* (BKG), Germany's national mapping agency. Data acquisition was supposed to start in 2023 and the goal was to have a data set for entire Germany by 2024 (currently it is expected to take longer). It is also planned to have at least one repition some years later. 
-Until now there is only sparse information about details of the project, but most likely the data will be mapped by Geiger-Mode or Single Photon Sensor (Leica SPL100) in the vegegtation period [https://doi.org/10.12902/zfv-0379-2021]. It is not planned to make the data available as open source in general, although DTM and DSM mitght be public at 1 meter resolution. Point cloud data might be accessible for scientific research and national authorities only. However, there is also rumors, that at least a downsampled version of point cloud data will be available. 
+According to https://doi.org/10.3390/ijgi6080243 "topographic databases maintained by national mapping agencies are currently the most common nationwide data sets in geo-information", however this is not true for Germany. Until now there is no single data set which is available for entire Germany. However, there are plans to generate such data. The project [Digital Twin Germany](https://www.business-geomatics.com/2022/11/17/zwillinge-gross-gedacht/) aims to acquire high density point cloud data for Germany. The project is run by the *Federal Agency for Cartography and Geodesy* (BKG), Germany's national mapping agency. Data acquisition was supposed to start in 2023 and the goal was to have a data set for entire Germany by 2024. It was also planned to have at least one repition some years later. It was also planned that the data would be mapped by Geiger-Mode or Single Photon Sensor (Leica SPL100) in the vegegtation period [https://doi.org/10.12902/zfv-0379-2021]. It is not planned to make the data available as open source in general, although DTM and DSM mitght be public at 1 meter resolution. Point cloud data might be accessible for scientific research and national authorities only. However, there is also rumors, that at least a downsampled version of point cloud data will be available. 
+Currently the initial plans can not be fulfilled anymore and a lot of details about the project are still not organised (see https://fragdenstaat.de/anfrage/informationen-zum-projekt-digitaler-zwilling-deutschland/). 
 
 #### [Digital Twin Germany](https://www.bkg.bund.de/SharedDocs/Pressemitteilungen/BKG/DE/PM_2021/211013-Digitaler_Zwilling.html)
 
 - coordinated by BKG
 - data meant for government agencies
-- first data collection 2023-2024 
-- repition after 3 years (possibly only one repition)
+- first data collection 2024-2025 
 - data collection in the vegetation period
 - point density >=40 pts/m²
-- Single Photon Lidar (SPL100) or Geiger-Mode
-- green wavelength (in case of SPL100)
 - case study applied to Hamburg in Winter 2022
 
 ### Federal
