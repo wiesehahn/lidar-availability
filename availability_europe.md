@@ -79,6 +79,8 @@ Digital surface model (or DSM)
 Digital Height Model (or DHM). The MNH by definition removes the altitude of the MNS and keeps only the above ground elements (buildings, vegetation...).
 - Vector quality masks
 
+### [Liechtenstein](https://www.swisstopo.admin.ch/en/lidar-data-swisstopo)
+- same as Switzerland
 
 ### [Luxembourg](https://lidar.geoportail.lu/)
 - obtained in 2019
@@ -120,12 +122,14 @@ https://geoportal.gov.pl/en/dane/dane-pomiarowe-lidar
 ### [Spain]()
 - Open Data (since at least 2017)
  
-### [Switzerland](https://www.swisstopo.admin.ch/en/geodata/height/surface3d.html#download)
-- 6 years update cycle
+### [Switzerland](https://www.swisstopo.admin.ch/en/height-model-swisssurface3d#download)
 - LAS 1.2 : free download
-- Minimum 5 pts/m2, mean around 15-20 pts/m2
-- complete acquisition in 2023 finished
-- no update of swissSURFACE3D is planned
+- data from 2017-2023 ([overview](https://prod-swisstopoch-hcms-sdweb.imgix.net/2023/11/14/f9bed9df-9161-4bdb-90ef-bcaa50edbc2f.jpg?auto=format))
+- Density: minimum 5 points per m², mean around 15-20 points per m²
+- data publication in 2024
+- repition planned for 2024-2029 ([overview](https://prod-swisstopoch-hcms-sdweb.imgix.net/2023/11/14/cf8847eb-64d3-4dcf-9ad9-ced1fd063635.jpg?auto=format))
+- classification: unclassified, ground, vegetation, buildings, water, bridges 
+- cantonal lidar data might also be available
 
 ### [Wales](https://datamap.gov.wales/maps/lidar-viewer/)
 - Open Data since 2015
