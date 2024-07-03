@@ -23,7 +23,7 @@ At the time of writing the initial plans can not be fulfilled anymore and a lot 
 Geodata collection, administration and publication in Germany is predominantly organized in federal structures by the land surveying and cadaster authorities of the 16 federal states. Although the *Working Committee of the surveying authorities of the states of the Federal Republic of Germany* (AdV) defines guidelines and standards ([DTM spec](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=2b14073e-de6b-1f71-96e7-436303dd7d12&uBasVariant=11111111-1111-1111-1111-111111111111), [DSM spec](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=da14073e-de6b-1f71-96e7-436303dd7d12&uBasVariant=11111111-1111-1111-1111-111111111111), [Point Cloud spec](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=6b510f6e-a708-d081-505a-20954cd298e1&uBasVariant=11111111-1111-1111-1111-111111111111)), there is still a variety of data and their availability in the realm of laserscanning data. For applications on a broader scale, beyond state boundaries, it is essential to know the data availability. Hence, information on federal ALS data was collected from federal mapping agencies' websites and other sources such as personal and email comunication.
 
 
-*Comparison of available ALS data in Germany by state (in case multiple campaigns are available the date range refers to the last finished campaign)*
+*Comparison of available ALS point cloud data in Germany by federal state (in case multiple campaigns are available the date range refers to the last finished campaign)*
 
 | Federal State | Cost (min)[^1] | Cost (max)[^2] | Year (from)[^3] | Year (to)[^4] | Point Density[^5] | 
 |---|---|---|---|---|---|
@@ -38,7 +38,7 @@ Geodata collection, administration and publication in Germany is predominantly o
 | Lower Saxony | 3,75 | 30 | 2015 | 2022 | 4 | 
 | North Rhine-Westphalia | 0 | 0 | 2018 | 2023 | 4-10 | 
 | Rhineland-Palatinate | 0 | 0 | 2018 | 2023 | 4 | 
-| Saarland | 120 | 120 | 2016 | 2016 | 4 | 
+| Saarland | 0 | 0 | 2016 | 2016 | 6-8 | 
 | Saxony | 0 | 0 | 2015 | 2023 | 4 | 
 | Saxony-Anhalt | 0 | 0 | 2009 | 2023 | 3-5 | 
 | Schleswig-Holstein | - | - | ? | ? | 3-5 | 
@@ -164,11 +164,11 @@ Geodata collection, administration and publication in Germany is predominantly o
 
 ### [Saarland](https://www.shop.lvgl.saarland.de/)
 
+- DGM1, DOM1 and point cloud available as open data since June 2024
 - there are two statewide laserscanning campaigns available
   - ALS_1 in 2006 (2-3 points per m²)
   - ALS_2 in 2016 (6-8 points per m²)
-- point clouds as LAZ (€120 per km²)
-- DOM1 / DGM1 available as XYZ (€80 per km²)
+- next campaign likely 2025
 
 ### [Saxony-Anhalt](https://geodatenportal.sachsen-anhalt.de/gfds/de/gdp-open-data.html)
 
