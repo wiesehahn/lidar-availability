@@ -1,7 +1,26 @@
 
 ## Lidar availability - Germany
 
-Geodata collection, administration and publication in Germany is predominantly organized in federal structures by the land surveying and cadaster authorities of the 16 federal states. Although the *Working Committee of the surveying authorities of the states of the Federal Republic of Germany* (AdV) defines guidelines and standards there is still a variety of different data types in the realm of laser scanning data. For applications on a broader scal, beyond state boundaries, it is essential to know the data availability. Hence, information on federal ALS was collected from federal mapping agencies' websites and other sources such as personal and Email comunication.
+## National data
+
+According to https://doi.org/10.3390/ijgi6080243 "topographic databases maintained by national mapping agencies are currently the most common nationwide data sets in geo-information", however this is not true for Germany. Until now there is no single data set which is available for entire Germany. However, there are plans to generate such data. The project Digital Twin Germany aims to acquire high density point cloud data for Germany. The project is run by the *Federal Agency for Cartography and Geodesy* (BKG), Germany's national mapping agency. Data acquisition was supposed to start in 2023 and the goal was to have a data set for entire Germany by 2024, with at least one repition some years later. It was also planned that the data would be mapped by Geiger-Mode or Single Photon Sensor (Leica SPL100) in the vegegtation period [https://doi.org/10.12902/zfv-0379-2021]. Plans did not include to make the point cloud data available as open source, although terrain and surface models mitght be made available (with resolutions of 1m). Point cloud data might be accessible for scientific research and national authorities only. However, there were also rumors, that at least a downsampled version of point cloud data will be available. 
+
+At the time of writing the initial plans can not be fulfilled anymore and a lot of details about the project are still not organised (see https://fragdenstaat.de/anfrage/informationen-zum-projekt-digitaler-zwilling-deutschland/). 
+
+### [Digital Twin Germany](https://www.bkg.bund.de/SharedDocs/Pressemitteilungen/BKG/DE/PM_2021/211013-Digitaler_Zwilling.html)
+
+- coordinated by BKG
+- data meant for government agencies
+- first data collection 2024-2025 ([source](https://www.bkg.bund.de/SharedDocs/Downloads/BKG/DE/Downloads-Forschung/digitaler-zwilling-praesentation.pdf?__blob=publicationFile&v=2))
+- data collection in the vegetation period
+- point density >=40 pts/m² ([source](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf))
+- case study applied to Hamburg in Winter 2022 with SPL100 ([source](https://web.archive.org/web/20230401163651/https://www.business-geomatics.com/2022/11/17/zwillinge-gross-gedacht/))
+- possibly repeated in a 3-year cycle ([source](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf))
+
+
+## Federal data
+
+Geodata collection, administration and publication in Germany is predominantly organized in federal structures by the land surveying and cadaster authorities of the 16 federal states. Although the *Working Committee of the surveying authorities of the states of the Federal Republic of Germany* (AdV) defines guidelines and standards ([DTM spec](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=2b14073e-de6b-1f71-96e7-436303dd7d12&uBasVariant=11111111-1111-1111-1111-111111111111), [DSM spec](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=da14073e-de6b-1f71-96e7-436303dd7d12&uBasVariant=11111111-1111-1111-1111-111111111111), [Point Cloud spec](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=6b510f6e-a708-d081-505a-20954cd298e1&uBasVariant=11111111-1111-1111-1111-111111111111)), there is still a variety of data and their availability in the realm of laserscanning data. For applications on a broader scale, beyond state boundaries, it is essential to know the data availability. Hence, information on federal ALS data was collected from federal mapping agencies' websites and other sources such as personal and email comunication.
 
 
 *Comparison of available ALS data in Germany by state (in case multiple campaigns are available the date range refers to the last finished campaign)*
@@ -31,24 +50,6 @@ Geodata collection, administration and publication in Germany is predominantly o
 [^4]: newsest data for statewide coverage
 [^5]: specified minimum number of points per m²
 
-
-### National
-
-According to https://doi.org/10.3390/ijgi6080243 "topographic databases maintained by national mapping agencies are currently the most common nationwide data sets in geo-information", however this is not true for Germany. Until now there is no single data set which is available for entire Germany. However, there are plans to generate such data. The project Digital Twin Germany aims to acquire high density point cloud data for Germany. The project is run by the *Federal Agency for Cartography and Geodesy* (BKG), Germany's national mapping agency. Data acquisition was supposed to start in 2023 and the goal was to have a data set for entire Germany by 2024, with at least one repition some years later. It was also planned that the data would be mapped by Geiger-Mode or Single Photon Sensor (Leica SPL100) in the vegegtation period [https://doi.org/10.12902/zfv-0379-2021]. Plans did not include to make the point cloud data available as open source, although terrain and surface models mitght be made available (with resolutions of 1m). Point cloud data might be accessible for scientific research and national authorities only. However, there were also rumors, that at least a downsampled version of point cloud data will be available. 
-
-At the time of writing the initial plans can not be fulfilled anymore and a lot of details about the project are still not organised (see https://fragdenstaat.de/anfrage/informationen-zum-projekt-digitaler-zwilling-deutschland/). 
-
-#### [Digital Twin Germany](https://www.bkg.bund.de/SharedDocs/Pressemitteilungen/BKG/DE/PM_2021/211013-Digitaler_Zwilling.html)
-
-- coordinated by BKG
-- data meant for government agencies
-- first data collection 2024-2025 ([source](https://www.bkg.bund.de/SharedDocs/Downloads/BKG/DE/Downloads-Forschung/digitaler-zwilling-praesentation.pdf?__blob=publicationFile&v=2))
-- data collection in the vegetation period
-- point density >=40 pts/m² ([source](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf))
-- case study applied to Hamburg in Winter 2022 with SPL100 ([source](https://web.archive.org/web/20230401163651/https://www.business-geomatics.com/2022/11/17/zwillinge-gross-gedacht/))
-- possibly repeated in a 3-year cycle ([source](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf))
-
-### Federal
 
 ### [Baden-Württemberg](https://www.lgl-bw.de/Produkte/3D-Produkte/Laserscandaten/)
 
