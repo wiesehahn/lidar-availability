@@ -3,20 +3,49 @@
 
 ## National data
 
-According to https://doi.org/10.3390/ijgi6080243 "topographic databases maintained by national mapping agencies are currently the most common nationwide data sets in geo-information", however this is not true for Germany. Until now there is no single data set which is available for entire Germany. However, there are plans to generate such data. The project Digital Twin Germany aims to acquire high density point cloud data for Germany. The project is run by the *Federal Agency for Cartography and Geodesy* (BKG), Germany's national mapping agency. Data acquisition was supposed to start in 2023 and the goal was to have a data set for entire Germany by 2024, with at least one repition some years later. It was also planned that the data would be mapped by Geiger-Mode or Single Photon Sensor (Leica SPL100) in the vegegtation period [https://doi.org/10.12902/zfv-0379-2021]. Plans did not include to make the point cloud data available as open source, although terrain and surface models mitght be made available (with resolutions of 1m). Point cloud data might be accessible for scientific research and national authorities only. However, there were also rumors, that at least a downsampled version of point cloud data will be available. 
-
-At the time of writing the initial plans can not be fulfilled anymore and a lot of details about the project are still not organised (see https://fragdenstaat.de/anfrage/informationen-zum-projekt-digitaler-zwilling-deutschland/). 
+According to [Virtanen et al. (2017)](https://doi.org/10.3390/ijgi6080243) "topographic databases maintained by national mapping agencies are currently the most common nationwide data sets in geo-information", however this is not true for Germany. Until now there is no single data set which is available for entire Germany. Instead there are datasets with varying conditions by each federal state. However, there are ongoing efforts to generate such data. The project Digital Twin Germany aims to acquire high density point cloud data for Germany. The project is run by the *Federal Agency for Cartography and Geodesy* (BKG), Germany's national mapping agency. Data acquisition was supposed to start in 2023 and the goal was to have a data set for entire Germany by 2024, with at least one repetition some years later. It was also planned that the data would be mapped by Geiger-Mode or Single Photon Sensor (Leica SPL100) in the vegetation period [Hopfstock et al. (2021)](https://doi.org/10.12902/zfv-0379-2021). Current plans are to collect data for all of Germany in the vegetation period in 2024 and 2025. It is expected that the entire dataset is available at the end of 2026, with first data in summer 2025. However, data is primarily meant for national agencies and most likely only a subset will be available as open data. 
 
 ### [Digital Twin Germany](https://www.bkg.bund.de/SharedDocs/Pressemitteilungen/BKG/DE/PM_2021/211013-Digitaler_Zwilling.html)
 
 - coordinated by BKG
-- data meant for government agencies
-- first data collection 2024-2025 ([source](https://www.bkg.bund.de/SharedDocs/Downloads/BKG/DE/Downloads-Forschung/digitaler-zwilling-praesentation.pdf?__blob=publicationFile&v=2))
-- data collection in the vegetation period
-- point density >=40 pts/m² ([source](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf))
-- case study applied to Hamburg in Winter 2022 with SPL100 ([source](https://web.archive.org/web/20230401163651/https://www.business-geomatics.com/2022/11/17/zwillinge-gross-gedacht/))
-- possibly repeated in a 3-year cycle ([source](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf))
+- data primarily meant for government agencies
+- case study applied to Hamburg in Winter 2022 with SPL100 
+- data collection 
+  - in the vegetation period (March to October)
+  - originally planned for 2023-2024 
+  - currently planned for 2024-2025 
+  - 8 lots flown by different companies (Hexagon, BSF Swissphoto, GEOREAL, FLYCOM) with different sensors (Leica SPL100, Riegl VQ1460, Riegl VQ1560 II-S)
+  - collected in 2024: northern  Mecklenburg Western Pomerania, Saxony, North Rhine-Westphalia, Rhineland-Palatinate, western Baden-Württemberg, northeast Bavaria  
+  - repetition (3-5 year cycle) is targeted but unclear
+- data properties
+  -  point density >=40 pts/m²
+  -  simultaneous with RGB data
+  - classes
+    - Building
+    - Bridge
+    - Water
+    - Ground
+    - Power lines
+    - Low Vegetation
+    - Medium Vegetation
+    - High Vegetation
+    - Objects above ground
+    - Low Noise
+    - High Noise
+    - Unclassified
+  - 1.5 PByte data expected
+- Derived products
+  - pointcloud with RGB-color (10 points/m²)
+  - DTM 50cm
+  - DSM 25cm
+  - classified objects (trees, wind turbines, ...)
+- Data provision
+  - thinned pointcloud (10 points/m²) available as open data (planned)
+  - first data expected in summer 2025 (for national agencies)
+  - derived products with delay
+  - entire data expected end of 2026
 
+(sources of information: [source1](https://web.archive.org/web/20230401163651/https://www.business-geomatics.com/2022/11/17/zwillinge-gross-gedacht/), [source2](https://www.bkg.bund.de/SharedDocs/Downloads/BKG/DE/Downloads-Forschung/digitaler-zwilling-praesentation.pdf?__blob=publicationFile&v=2), [source3](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf), [source4](http://www.eurosdr.net/sites/default/files/images/inline/8-digital_twin_of_germany.pdf), [source5](https://ausschreibungen-deutschland.de/2014266_Befliegung_DigiZDEReferenznummer_der_Bekanntmachung_B_1214_-_090722VV__1_2023_Bonn), [source6](https://wiki.gdi-de.org/x/NwBCTw), [source7](https://fragdenstaat.de/anfrage/informationen-zum-projekt-digitaler-zwilling-deutschland/))
 
 ## Federal data
 
