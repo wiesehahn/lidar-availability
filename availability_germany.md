@@ -92,9 +92,10 @@ Geodata collection, administration, and distribution in Germany operates primari
 
 ### [Bayern](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=laserdaten)
 
-- statewide ALS in 1996-2024 (10-year cycle)
+- ALS data from 1996-2024, rolling data collection
   -  1 points/m² before 2012
   -  4 points/m² since 2012
+- 10-year cycle
 - [DTM1](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=dgm1) and [Point Cloud](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=laserdaten) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024
 - iDSM (20 cm) as LAZ with color values open data 
 - nDOM, tDSM and 3D-Mesh in development
