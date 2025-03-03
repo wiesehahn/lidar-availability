@@ -153,14 +153,6 @@ Geodata collection, administration, and distribution in Germany operates primari
 - 6-year repetition cycle
 - DTM1, DSM1 and Point Cloud available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2022
 
-### [Mecklenburg Western Pomerania](https://www.laiv-mv.de/Geoinformation/Geobasisdaten/Oberflaechenmodelle/)
-
-- one statewide ALS campaign complete, a second campaign is ongoing (?)
-  - campaign 1: 4-5 points/m² in 2015-2024 ([overview](https://www.geoportal-mv.de/dienste/karten_akt_uebersicht_file/Uebersicht_Verfuegbarkeit_ALS-Daten.pdf))
-- [DTM1](https://laiv.geodaten-mv.de/afgvk/Geotopographie/Download?produkt=DGM1) and [DSM1](https://www.laiv-mv.de/Geoinformation/Geobasisdaten/Oberflaechenmodelle/) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024
-- Point Cloud available for 10-80 €/km²
-- iDSM (10 cm) available for 5-20 €/km²
-- DTM and DSM based on old data, orthophotos are also mentioned as data source
 
 ### [Lower Saxony](https://www.lgln.niedersachsen.de/startseite/geodaten_karten/3dgeobasisdaten/3dmessdaten/3d-messdaten-142870.html)
 
@@ -175,9 +167,21 @@ Geodata collection, administration, and distribution in Germany operates primari
 - [iDSM](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::bildbasiertes-digitales-oberfl%C3%A4chenmodell-bdom20/about) (20 cm) available as open data
 
 
+### [Mecklenburg Western Pomerania](https://www.laiv-mv.de/Geoinformation/Geobasisdaten/Oberflaechenmodelle/)
+
+- one statewide ALS campaign complete, a second campaign is ongoing (?)
+  - campaign 1: 4-5 points/m² in 2015-2024 ([overview](https://www.geoportal-mv.de/dienste/karten_akt_uebersicht_file/Uebersicht_Verfuegbarkeit_ALS-Daten.pdf))
+- [DTM1](https://laiv.geodaten-mv.de/afgvk/Geotopographie/Download?produkt=DGM1) and [DSM1](https://www.laiv-mv.de/Geoinformation/Geobasisdaten/Oberflaechenmodelle/) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024
+- Point Cloud available for 10-80 €/km²
+- iDSM (10 cm) available for 5-20 €/km²
+- DTM and DSM based on old data, orthophotos are also mentioned as data source
+
+
 ### [North Rhine-Westphalia](https://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/hoehenmodelle/3d-messdaten)
 
 - statewide ALS campaign complete
+  - detailed information about campaigns unavailable
+  - approximately 5 campaigns, for sample area in 1997 (~0.1 points/m²), 2008(~3 points/m²), 2013, 2019(4 points/m²), 2022(4 points/m²) 
   - 4-10 points/m²
 - [DTM1](https://www.opengeodata.nrw.de/produkte/geobasis/hm/dgm1_tiff/dgm1_tiff/), [DSM1](https://www.opengeodata.nrw.de/produkte/geobasis/hm/dom1_tiff/dom1_tiff/) and [Point Cloud](https://www.opengeodata.nrw.de/produkte/geobasis/hm/3dm_l_las/3dm_l_las/) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2017
 - 5-year cycle
