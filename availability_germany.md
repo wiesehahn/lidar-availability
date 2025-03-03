@@ -234,10 +234,11 @@ Geodata collection, administration, and distribution in Germany operates primari
 
 - there is one statewide ALS campaign complete, a second campaign is ongoing
   - campaign 1:  in 2005-2007
-  - campaign 2:  3-4 points/m² in 2022- (?) 
+  - campaign 2:  4 points/m² in 2021-2026 
 - [DTM1](https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-dgm1.html) available as open data since 2023
 - iDSM (20 cm) available as open data, updated every 2 years
 - Point Cloud and DSM1 based on ALS data not available (neither open data nor commercial)
+- DSM1 is in preparation
 
 
 ### [Thuringia](https://www.geoportal-th.de/de-de/Downloadbereiche/Download-Offene-Geodaten-Th%C3%BCringen/Download-H%C3%B6hendaten)
