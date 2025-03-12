@@ -35,12 +35,12 @@ According to [Virtanen et al. (2017)](https://doi.org/10.3390/ijgi6080243) "topo
     - Unclassified
   - 1.5 PByte data expected
 - Derived products
-  - Point CLoud with RGB-color (10 points/m²)
+  - Point Cloud with RGB-color (10 points/m²)
   - DTM (50 cm)
   - DSM (25 cm)
   - classified objects (trees, wind turbines, ...)
 - Data provision
-  - thinned Point CLoud (10 points/m²) available as open data (planned)
+  - thinned Point Cloud (10 points/m²) available as open data (planned)
   - first data expected in summer 2025 (for national agencies)
   - derived products with delay
   - entire data expected end of 2026
@@ -79,6 +79,32 @@ Geodata collection, administration, and distribution in Germany operates primari
 [^3]: oldest data for statewide coverage
 [^4]: newsest data for statewide coverage
 [^5]: specified minimum number of points/m²
+
+
+
+*Availability of federal ALS data:
+:white_check_mark:= open data, :heavy_dollar_sign:= processing fee, :x:= no data available
+:black_circle:= statewide coverage, :radio_button:= partial coverage*
+
+| Federal State                 | DTM                | DSM                | Point Cloud         | # Campaigns                                                            |
+|-------------------------------|--------------------|--------------------|---------------------|------------------------------------------------------------------------|
+| Baden-Württemberg             | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle::radio_button:                             |
+| Bavaria                       | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| Berlin                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle:                                                         |
+| Brandenburg                   | :white_check_mark: | :x:                | :white_check_mark:  | :radio_button::radio_button:                                           |
+| Bremen                        | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle:                                           |
+| Hamburg                       | :white_check_mark: | :x:                | :x:                 | :black_circle::black_circle::black_circle:                             |
+| Hesse                         | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| Mecklenburg-Western Pomerania | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: |                                                                        |
+| Lower Saxony                  | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::radio_button:                                           |
+| North Rhine-Westphalia        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::black_circle::radio_button: |
+| Rhineland-Palatinate          | :white_check_mark: | :x:                | :white_check_mark:  |                                                                        |
+| Saarland                      | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle:                                           |
+| Saxony                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| Saxony-Anhalt                 | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::radio_button:                                           |
+| Schleswig-Holstein            | :white_check_mark: | :x:                | :x:                 | :black_circle::radio_button:                                           |
+| Thuringia                     | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::radio_button:               |
+
 
 
 ### [Baden-Württemberg](https://www.lgl-bw.de/Produkte/3D-Produkte/Laserscandaten/)
@@ -161,7 +187,7 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 2: 4-8 points/m² in 2020- (?) ([overview](https://cms.lgln.niedersachsen.de/fb24/dgm1_dom1.pdf))
 - 6-year cycle since 2023/2024
 - 8 points/m² since 2023/2024
-- addition RGBI data since 2023/2024 
+- RGBI data included since 2023/2024 
 - [DTM1](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-gel%C3%A4ndemodell-dgm1/about) and [DSM1](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-oberfl%C3%A4chenmodell-dom1/about) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024 
 - Point Cloud data available for 3.75-30 €/km²
 - [iDSM](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::bildbasiertes-digitales-oberfl%C3%A4chenmodell-bdom20/about) (20 cm) available as open data
