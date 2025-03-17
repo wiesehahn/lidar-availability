@@ -35,12 +35,12 @@ According to [Virtanen et al. (2017)](https://doi.org/10.3390/ijgi6080243) "topo
     - Unclassified
   - 1.5 PByte data expected
 - Derived products
-  - Point CLoud with RGB-color (10 points/m²)
+  - Point Cloud with RGB-color (10 points/m²)
   - DTM (50 cm)
   - DSM (25 cm)
   - classified objects (trees, wind turbines, ...)
 - Data provision
-  - thinned Point CLoud (10 points/m²) available as open data (planned)
+  - thinned Point Cloud (10 points/m²) available as open data (planned)
   - first data expected in summer 2025 (for national agencies)
   - derived products with delay
   - entire data expected end of 2026
@@ -50,6 +50,8 @@ According to [Virtanen et al. (2017)](https://doi.org/10.3390/ijgi6080243) "topo
 ## Federal data
 
 Geodata collection, administration, and distribution in Germany operates primarily through federal structures managed by the land surveying and cadastral authorities of the 16 federal states. While the *Working Committee of the Surveying Authorities of the States of the Federal Republic of Germany* (AdV) establishes guidelines and standards for digital [terrain models](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=2b14073e-de6b-1f71-96e7-436303dd7d12&uBasVariant=11111111-1111-1111-1111-111111111111), [surface models](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=da14073e-de6b-1f71-96e7-436303dd7d12&uBasVariant=11111111-1111-1111-1111-111111111111), and [Point Clouds](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=6b510f6e-a708-d081-505a-20954cd298e1&uBasVariant=11111111-1111-1111-1111-111111111111), the availability and specifications of airborne laser scanning data vary across space and time. For cross-state applications and nationwide analyses, a comprehensive understanding of data availability is essential to ensure efficient project planning and consistent data quality. This compilation of federal ALS data availability draws from state mapping agencies' official websites, direct communication with authorities and additional sources wehere possible.
+
+([source](https://www.adv-online.de/AdV-Produkte/Geotopographie/Digitale-Gelaendemodelle/DGM1/binarywriterservlet?imgUid=7fd603aa-0a3c-a491-d853-6fc506488e77&uBasVariant=11111111-1111-1111-1111-111111111111))
 
 *Comparison of available ALS Point Cloud data in Germany by federal state (the date range refers to the most recent data covering the entire state)*
 
@@ -77,6 +79,32 @@ Geodata collection, administration, and distribution in Germany operates primari
 [^3]: oldest data for statewide coverage
 [^4]: newsest data for statewide coverage
 [^5]: specified minimum number of points/m²
+
+
+
+*Availability of federal ALS data:
+:white_check_mark:= open data, :heavy_dollar_sign:= processing fee, :x:= no data available
+:black_circle:= statewide coverage, :radio_button:= partial coverage*
+
+| Federal State                 | DTM                | DSM                | Point Cloud         | # Campaigns                                                            |
+|-------------------------------|--------------------|--------------------|---------------------|------------------------------------------------------------------------|
+| Baden-Württemberg             | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle::radio_button:                             |
+| Bavaria                       | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| Berlin                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle:                                                         |
+| Brandenburg                   | :white_check_mark: | :x:                | :white_check_mark:  | :radio_button::radio_button:                                           |
+| Bremen                        | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle:                                           |
+| Hamburg                       | :white_check_mark: | :x:                | :x:                 | :black_circle::black_circle::black_circle:                             |
+| Hesse                         | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| Mecklenburg-Western Pomerania | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: |                                                                        |
+| Lower Saxony                  | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::radio_button:                                           |
+| North Rhine-Westphalia        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::black_circle::radio_button: |
+| Rhineland-Palatinate          | :white_check_mark: | :x:                | :white_check_mark:  |                                                                        |
+| Saarland                      | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle:                                           |
+| Saxony                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| Saxony-Anhalt                 | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::radio_button:                                           |
+| Schleswig-Holstein            | :white_check_mark: | :x:                | :x:                 | :black_circle::radio_button:                                           |
+| Thuringia                     | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::radio_button:               |
+
 
 
 ### [Baden-Württemberg](https://www.lgl-bw.de/Produkte/3D-Produkte/Laserscandaten/)
@@ -148,8 +176,22 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 1: 4 points/m² in 2009-2014
   - campaign 2: 8 points/m² in 2015-2021
   - campaign 3: 8 points/m² in 2021-2027, ([overview](https://gds.hessen.de/INTERSHOP/static/WFS/HLBG-Geodaten-Site/-/HLBG-Geodaten/de_DE/Downloadcenter/Daten/3D-Daten/Aktualit%C3%A4t_3D_0.pdf))
-- DTM1, DSM1 and Point Cloud available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2022
 - 6-year repetition cycle
+- DTM1, DSM1 and Point Cloud available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2022
+
+
+### [Lower Saxony](https://www.lgln.niedersachsen.de/startseite/geodaten_karten/3dgeobasisdaten/3dmessdaten/3d-messdaten-142870.html)
+
+- one statewide ALS campaign complete, a second campaign is ongoing
+  - campaign 1: 4 points/m² in 2010-2019 (?)
+  - campaign 2: 4-8 points/m² in 2020- (?) ([overview](https://cms.lgln.niedersachsen.de/fb24/dgm1_dom1.pdf))
+- 6-year cycle since 2023/2024
+- 8 points/m² since 2023/2024
+- RGBI data included since 2023/2024 
+- [DTM1](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-gel%C3%A4ndemodell-dgm1/about) and [DSM1](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-oberfl%C3%A4chenmodell-dom1/about) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024 
+- Point Cloud data available for 3.75-30 €/km²
+- [iDSM](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::bildbasiertes-digitales-oberfl%C3%A4chenmodell-bdom20/about) (20 cm) available as open data
+
 
 ### [Mecklenburg Western Pomerania](https://www.laiv-mv.de/Geoinformation/Geobasisdaten/Oberflaechenmodelle/)
 
@@ -159,18 +201,6 @@ Geodata collection, administration, and distribution in Germany operates primari
 - Point Cloud available for 10-80 €/km²
 - iDSM (10 cm) available for 5-20 €/km²
 - DTM and DSM based on old data, orthophotos are also mentioned as data source
-
-### [Lower Saxony](https://www.lgln.niedersachsen.de/startseite/geodaten_karten/3dgeobasisdaten/3dmessdaten/3d-messdaten-142870.html)
-
-- one statewide ALS campaign complete, a second campaign is ongoing
-  - campaign 1: 4 points/m² in 2010-2019 (?)
-  - campaign 2: 4-8 points/m² in 2020- (?) ([overview](https://cms.lgln.niedersachsen.de/fb24/dgm1_dom1.pdf))
-- 6-year repetition cycle since 2023/2024
-- 8 points/m² since 2023/2024
-- addition RGBI data since 2023/2024 
-- [DTM1](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-gel%C3%A4ndemodell-dgm1/about) and [DSM1](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-oberfl%C3%A4chenmodell-dom1/about) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024 
-- Point Cloud data available for 3.75-30 €/km²
-- [iDSM](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::bildbasiertes-digitales-oberfl%C3%A4chenmodell-bdom20/about) (20 cm) available as open data
 
 
 ### [North Rhine-Westphalia](https://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/hoehenmodelle/3d-messdaten)
@@ -192,12 +222,14 @@ Geodata collection, administration, and distribution in Germany operates primari
 ### [Rhineland-Palatinate](https://lvermgeo.rlp.de/de/produkte/geotopografie/3d-geodaten/digitale-gelaendemodelle-dgm/)
 
 - statewide ALS campaign complete
-  - 4 points/m² in 2019-2024 ([overview](https://lvermgeo.rlp.de/fileadmin/lvermgeo/pdf/geodaten/Aktualitaet_Laserscanbefliegung.pdf))
+  - 4 points/m² until 2014
+  - 8 points/m² since 2014
+  - current data from 2019-2024 ([overview](https://lvermgeo.rlp.de/fileadmin/lvermgeo/pdf/geodaten/Aktualitaet_Laserscanbefliegung.pdf))
 - [DTM1](https://geobasis-rlp.de/data/dgm1/) and Point Cloud available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2024
 - Point Clouds available separated into terrain (last returns) and object points (first returns) 
 - 9-year cycle until 2021
 - 4-year cycle since 2022 
-- DSM1 based on ALS data not available (neither open data nor commercial)
+- DSM1 based on ALS data not available (neither open data nor commercial) (according to ADV it is available!?)
 - iDSM (20 cm) available as open data
 - [source](https://lvermgeo.rlp.de/fileadmin/lvermgeo/pdf/produktblaetter/Laserpunkte.pdf)
 
@@ -231,13 +263,13 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 1: in 2005-2012 ([overview](https://geoviewer.sachsen.de/mapviewer/resources/apps/bildflug/index.html?lang=de&stateId=18ca179c-8e20-4315-8a17-9c8e2063152d))
   - campaign 2: 4 points/m² in 2015-2020
   - campaign 3: 4 points/m² in 2020-2026
-- [DTM1, DSM1 and Point Cloud](https://www.landesvermessung.sachsen.de/download-offene-geodaten-und-testdaten-8647.html) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0))
 - 6-year cycle since 2020/2021 ([planned overview](https://www.landesvermessung.sachsen.de/prod_dhm_stadt/plan_dhm_stadt.pdf))
+- [DTM1, DSM1 and Point Cloud](https://www.landesvermessung.sachsen.de/download-offene-geodaten-und-testdaten-8647.html) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0))
 - [source](https://www.landesvermessung.sachsen.de/digitale-hoehen-und-stadtmodelle-8641.html)
 
 ### [Schleswig-Holstein](https://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_DGM.html)
 
-- there is one statewide ALS campaign complete, a second campaign is ongoing
+- one statewide ALS campaign complete, a second campaign is ongoing
   - campaign 1:  in 2005-2007
   - campaign 2:  4 points/m² in 2021-2026 
 - [DTM1](https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-dgm1.html) available as open data since 2023
@@ -253,4 +285,5 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 2:  4 points/m² in 2010-2013
   - campaign 3:  4 points/m² in 2014-2019 
   - campaign 4:  in 2020-2025, ([overview](https://tlbg.thueringen.de/fileadmin/TLBG/Vertrieb/uebersichten/dgm/tlbg-uebersicht-dgm-2020-2025_.pdf))
+- 6-year cycle
 - [DTM1, DSM1 and Point Cloud](https://geoportal.thueringen.de/gdi-th/download-offene-geodaten/download-hoehendaten) available as open data since 2017
