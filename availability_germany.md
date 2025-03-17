@@ -93,7 +93,7 @@ Geodata collection, administration, and distribution in Germany operates primari
 ### [Bayern](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=laserdaten)
 
 - ALS data from 1996-2024, rolling data collection
-  -  1 points/m² before 2012
+  -  1 point/m² before 2012
   -  4 points/m² since 2012
 - 10-year cycle
 - [DTM1](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=dgm1) and [Point Cloud](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=laserdaten) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024
@@ -175,10 +175,15 @@ Geodata collection, administration, and distribution in Germany operates primari
 
 ### [North Rhine-Westphalia](https://www.bezreg-koeln.nrw.de/geobasis-nrw/produkte-und-dienste/hoehenmodelle/3d-messdaten)
 
-- statewide ALS campaign complete
-  - 4-10 points/m²
+- ALS data since 1996, no dedicated campaigns
+  - approximately 3-5 observations per area
+  - since 1996: first data with 0.04 points/m²
+  - since 2005: 1 point/m²
+  - since 2012: 6-year repetition cycle
+  - since 2013: 4 points/m²
+  - since 2019: 5-year repetition cycle
 - [DTM1](https://www.opengeodata.nrw.de/produkte/geobasis/hm/dgm1_tiff/dgm1_tiff/), [DSM1](https://www.opengeodata.nrw.de/produkte/geobasis/hm/dom1_tiff/dom1_tiff/) and [Point Cloud](https://www.opengeodata.nrw.de/produkte/geobasis/hm/3dm_l_las/3dm_l_las/) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2017
-- 5-year repetition cycle
+
 - "Historical 3DMs can also be submitted upon request."
 - [iDSM](https://www.opengeodata.nrw.de/produkte/geobasis/hm/bdom50_las/bdom50_las/) (50 cm) available as open data 
 - ADV-classes: 1,2,9,17,18,20,21,24,26
