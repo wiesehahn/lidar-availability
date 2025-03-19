@@ -91,7 +91,7 @@ Geodata collection, administration, and distribution in Germany operates primari
 | Baden-Württemberg             | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle::radio_button:                             |
 | Bavaria                       | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
 | Berlin                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle:                                                         |
-| Brandenburg                   | :white_check_mark: | :x:                | :white_check_mark:  | :radio_button::radio_button:                                           |
+| Brandenburg                   | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::radio_button:                                           |
 | Bremen                        | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle:                                           |
 | Hamburg                       | :white_check_mark: | :x:                | :x:                 | :black_circle::black_circle::black_circle:                             |
 | Hesse                         | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
@@ -115,19 +115,19 @@ Geodata collection, administration, and distribution in Germany operates primari
   - [campaign 3:](https://www.lgl-bw.de/Produkte/3D-Produkte/Laserscandaten/ALS_3/) 8 points/m² in 2022-2029 (10-80 €/km², 7 Classes), ([overview](https://www.geoportal-bw.de/?permalinkId=e042e935-16cf-4497-a3b8-47c3ce477afb#/(sidenav:karten)))
 - [DTM025](https://www.lgl-bw.de/Produkte/3D-Produkte/Digitale-Gelaendemodelle/) and [DSM1](https://www.lgl-bw.de/Produkte/3D-Produkte/Digitale-Oberflaechenmodelle/) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2024
 - cost of statewide Point Cloud data for one campaign: 720.000 €
-- iDSM (20 cm) available as open data (with processing fee)
-- no bulk download option
+- [iDSM (20 cm)](https://www.lgl-bw.de/Produkte/3D-Produkte/Digitale-Oberflaechenmodelle/bDOM/) available as open data (with processing fee)
+- bulk download option (> 5 km²) only for processing fee 
 
 ### [Bayern](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=laserdaten)
 
-- ALS data from 1996-2024, rolling data collection
-  -  1 point/m² before 2012
-  -  4 points/m² since 2012
-- 10-year cycle
+- ALS data from 1996-2024, no dedicated campaigns
+  - approximately 3 observations per area
+  - 1 point/m² before 2012
+  - 4 points/m² since 2012
 - [DTM1](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=dgm1) and [Point Cloud](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=laserdaten) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024
-- iDSM (20 cm) as LAZ with color values open data 
+- historical data available for processing fee (50 €)
+- [iDSM (20 cm)](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=dom20) available as open data
 - nDOM, tDSM and 3D-Mesh in development
-- classes: ground points, object points, unassignable points near the ground, building points
 
 ### [Berlin](https://www.stadtentwicklung.berlin.de/geoinformation/landesvermessung/atkis/de/dom.shtml)
 
@@ -144,8 +144,7 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 1: 1 point/m² in 2008-2012 ([overview](https://data.geobasis-bb.de/geobasis/information/aktualitaeten/bb_laserscandaten_2008-2012_aktualitaet.pdf))
   - campaign 2: 5 points/m² in 2017 - ? ([overview](https://data.geobasis-bb.de/geobasis/information/aktualitaeten/bb_laserscandaten_aktualitaet.pdf))
 - [DTM1](https://data.geobasis-bb.de/geobasis/daten/dgm/tif/) and [Point Cloud](https://data.geobasis-bb.de/geobasis/daten/als/laz/) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since end of 2021
-- not yet entirely covered by ALS data
-- [iDSM](https://data.geobasis-bb.de/geobasis/daten/bdom/tif/) (20 cm) available as open data (from winter flight with poor quality for vegetation)
+- [iDSM (20 cm)](https://data.geobasis-bb.de/geobasis/daten/bdom/tif/) available as open data
 
 
 ### [Bremen](https://www.geo.bremen.de/produkte/3d-produkte/hoehenmodelle-12482)
@@ -177,20 +176,22 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 2: 8 points/m² in 2015-2021
   - campaign 3: 8 points/m² in 2021-2027, ([overview](https://gds.hessen.de/INTERSHOP/static/WFS/HLBG-Geodaten-Site/-/HLBG-Geodaten/de_DE/Downloadcenter/Daten/3D-Daten/Aktualit%C3%A4t_3D_0.pdf))
 - 6-year repetition cycle
-- DTM1, DSM1 and Point Cloud available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2022
+- [DTM1](https://gds.hessen.de/INTERSHOP/web/WFS/HLBG-Geodaten-Site/de_DE/-/EUR/ViewDownloadcenter-Start?path=3D-Daten/Digitales%20Gel%C3%A4ndemodell%20(DGM1)), [DSM1](https://gds.hessen.de/INTERSHOP/web/WFS/HLBG-Geodaten-Site/de_DE/-/EUR/ViewDownloadcenter-Start?path=3D-Daten/Digitales%20Oberfl%C3%A4chenmodell%20(DOM1)) and Point Cloud available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2022
 
 
 ### [Lower Saxony](https://www.lgln.niedersachsen.de/startseite/geodaten_karten/3dgeobasisdaten/3dmessdaten/3d-messdaten-142870.html)
 
-- one statewide ALS campaign complete, a second campaign is ongoing
-  - campaign 1: 4 points/m² in 2010-2019 (?)
-  - campaign 2: 4-8 points/m² in 2020- (?) ([overview](https://cms.lgln.niedersachsen.de/fb24/dgm1_dom1.pdf))
+- ALS data from 1996-2024, no dedicated campaigns
+  - approximately 1-2 observations per area
+  - 0.06-0.25 points/m² in 1996-2003 (11% of state area)
+  - 3.5-10 points/m² in 2008-2013
+  - 4 points/m² since 2015 (start of statewide aquisition) ([overview](https://cms.lgln.niedersachsen.de/fb24/dgm1_dom1.pdf))
+  - 8 points/m² since 2023/2024
 - 6-year cycle since 2023/2024
-- 8 points/m² since 2023/2024
 - RGBI data included since 2023/2024 
 - [DTM1](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-gel%C3%A4ndemodell-dgm1/about) and [DSM1](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::digitales-oberfl%C3%A4chenmodell-dom1/about) available as open data ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) since 2024 
 - Point Cloud data available for 3.75-30 €/km²
-- [iDSM](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::bildbasiertes-digitales-oberfl%C3%A4chenmodell-bdom20/about) (20 cm) available as open data
+- [iDSM (20 cm)](https://ni-lgln-opengeodata.hub.arcgis.com/apps/lgln-opengeodata::bildbasiertes-digitales-oberfl%C3%A4chenmodell-bdom20/about) available as open data
 
 
 ### [Mecklenburg Western Pomerania](https://www.laiv-mv.de/Geoinformation/Geobasisdaten/Oberflaechenmodelle/)
