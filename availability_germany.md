@@ -53,57 +53,29 @@ Geodata collection, administration, and distribution in Germany operates primari
 
 ([source](https://www.adv-online.de/AdV-Produkte/Geotopographie/Digitale-Gelaendemodelle/DGM1/binarywriterservlet?imgUid=7fd603aa-0a3c-a491-d853-6fc506488e77&uBasVariant=11111111-1111-1111-1111-111111111111))
 
-*Comparison of available ALS Point Cloud data in Germany by federal state (the date range refers to the most recent data covering the entire state)*
 
-| Federal State | Cost (min)[^1] | Cost (max)[^2] | Year (from)[^3] | Year (to)[^4] | Point Density[^5] | 
-|---|---|---|---|---|---|
-| Baden-Württemberg | 10 | 80 | 2016 | 2024 | 8 | 
-| Bavaria | 0 | 0 | 2013 | 2024 | 4 | 
-| Berlin | 0 | 0 | 2021 | 2021 | 10 | 
-| Brandenburg | 0 | 0 | 2017 | 2024 | 5 | 
-| Bremen | 80 | 80 | 2017 | 2017 | 7 | 
-| Hamburg | - | - | 2022 | 2022 | 15 | 
-| Hesse | 0 | 0 | 2016 | 2023 | 8 | 
-| Mecklenburg-Western Pomerania | 10 | 80 | 2015 | 2024 | 4-5 | 
-| Lower Saxony | 3,75 | 30 | 2015 | 2024 | 4-8 | 
-| North Rhine-Westphalia | 0 | 0 | 2019 | 2024 | 4-10 | 
-| Rhineland-Palatinate | 0 | 0 | 2019 | 2024 | 4 | 
-| Saarland | 0 | 0 | 2015 | 2016 | 8 | 
-| Saxony | 0 | 0 | 2016 | 2024 | 4 | 
-| Saxony-Anhalt | 0 | 190 | 2009 | 2023 | 3-5 | 
-| Schleswig-Holstein | - | - | ? | ? | 3-4 | 
-| Thuringia | 0 | 0 | 2019 | 2024 | 4 | 
-
-[^1]: in € per km² (with volume discount; plus processing fee)
-[^2]: in € per km² (plus processing fee)
-[^3]: oldest data for statewide coverage
-[^4]: newsest data for statewide coverage
-[^5]: specified minimum number of points/m²
-
-
-
-*Availability of federal ALS data:
-:white_check_mark:= open data, :heavy_dollar_sign:= processing fee, :x:= no data available
-:black_circle:= statewide coverage, :radio_button:= partial coverage*
+*Overview about availability of federal ALS data in Germany (detailed information below)*
+:white_check_mark: *= open data,* :heavy_dollar_sign: *= processing fee,* :x: *= not available* 
+:black_circle: *= statewide coverage,* :radio_button: *= partial coverage*
 
 | Federal State                 | DTM                | DSM                | Point Cloud         | # Campaigns                                                            |
 |-------------------------------|--------------------|--------------------|---------------------|------------------------------------------------------------------------|
-| Baden-Württemberg             | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle::radio_button:                             |
-| Bavaria                       | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
-| Berlin                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle:                                                         |
-| Brandenburg                   | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::radio_button:                                           |
-| Bremen                        | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle:                                           |
-| Hamburg                       | :white_check_mark: | :x:                | :x:                 | :black_circle::black_circle::black_circle:                             |
-| Hesse                         | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
-| Mecklenburg-Western Pomerania | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: |                                                                        |
-| Lower Saxony                  | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::radio_button:                                           |
-| North Rhine-Westphalia        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::black_circle::radio_button: |
-| Rhineland-Palatinate          | :white_check_mark: | :x:                | :white_check_mark:  |                                                                        |
-| Saarland                      | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle:                                           |
-| Saxony                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
-| Saxony-Anhalt                 | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::radio_button:                                           |
-| Schleswig-Holstein            | :white_check_mark: | :x:                | :x:                 | :black_circle::radio_button:                                           |
-| Thuringia                     | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::radio_button:               |
+| [Baden-Württemberg](#baden-württemberg)             | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle::radio_button:                             |
+| [Bavaria](#bavaria)                       | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| [Berlin](#berlin)                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle:                                                         |
+| [Brandenburg](#brandenburg)                   | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::radio_button:                                           |
+| [Bremen](#bremen)                        | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::black_circle:                                           |
+| [Hamburg](#hamburg)                       | :white_check_mark: | :x:                | :x:                 | :black_circle::black_circle::black_circle:                             |
+| [Hesse](#hesse)                         | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| [Lower Saxony](#lower-saxony)                  | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::radio_button:                                           |
+| [Mecklenburg-Western Pomerania](#mecklenburg-western-pomerania) | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: |                                                                        |
+| [North Rhine-Westphalia](#north-rhine-westphalia)        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::radio_button::radio_button: |
+| [Rhineland-Palatinate](#rhineland-palatinate)          | :white_check_mark: | :x:                | :white_check_mark:  |                                                                        |
+| [Saarland](#saarland)                      | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle:                                           |
+| [Saxony](#saxony)                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
+| [Saxony-Anhalt](#saxony-anhalt)                 | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::radio_button:                                           |
+| [Schleswig-Holstein](#schleswig-holstein)            | :white_check_mark: | :x:                | :x:                 | :black_circle::radio_button:                                           |
+| [Thuringia](#thuringia)                     | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::radio_button:               |
 
 
 
@@ -118,7 +90,7 @@ Geodata collection, administration, and distribution in Germany operates primari
 - [iDSM (20 cm)](https://www.lgl-bw.de/Produkte/3D-Produkte/Digitale-Oberflaechenmodelle/bDOM/) available as open data (with processing fee)
 - bulk download option (> 5 km²) only for processing fee 
 
-### [Bayern](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=laserdaten)
+### [Bavaria](https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=laserdaten)
 
 - ALS data from 1996-2024, no dedicated campaigns
   - approximately 3 observations per area
@@ -214,24 +186,24 @@ Geodata collection, administration, and distribution in Germany operates primari
   - since 2013: 4 points/m²
   - since 2019: 5-year repetition cycle
 - [DTM1](https://www.opengeodata.nrw.de/produkte/geobasis/hm/dgm1_tiff/dgm1_tiff/), [DSM1](https://www.opengeodata.nrw.de/produkte/geobasis/hm/dom1_tiff/dom1_tiff/) and [Point Cloud](https://www.opengeodata.nrw.de/produkte/geobasis/hm/3dm_l_las/3dm_l_las/) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2017
-
-- "Historical 3DMs can also be submitted upon request."
-- [iDSM](https://www.opengeodata.nrw.de/produkte/geobasis/hm/bdom50_las/bdom50_las/) (50 cm) available as open data 
-- ADV-classes: 1,2,9,17,18,20,21,24,26
+- historical data available on request
+- [iDSM (50 cm)](https://www.opengeodata.nrw.de/produkte/geobasis/hm/bdom50_las/bdom50_las/) available as open data
 
 
 ### [Rhineland-Palatinate](https://lvermgeo.rlp.de/de/produkte/geotopografie/3d-geodaten/digitale-gelaendemodelle-dgm/)
 
 - statewide ALS campaign complete
+  - dirst data since 2002
   - 4 points/m² until 2014
   - 8 points/m² since 2014
   - current data from 2019-2024 ([overview](https://lvermgeo.rlp.de/fileadmin/lvermgeo/pdf/geodaten/Aktualitaet_Laserscanbefliegung.pdf))
-- [DTM1](https://geobasis-rlp.de/data/dgm1/) and Point Cloud available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2024
+- [DTM1](https://geobasis-rlp.de/data/dgm1/) and [Point Cloud](https://geobasis-rlp.de/data/las/) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2024
 - Point Clouds available separated into terrain (last returns) and object points (first returns) 
 - 9-year cycle until 2021
 - 4-year cycle since 2022 
-- DSM1 based on ALS data not available (neither open data nor commercial) (according to ADV it is available!?)
-- iDSM (20 cm) available as open data
+- DSM1 based on ALS data not available (neither open data nor commercial)
+- [iDSM (20 cm)](https://geobasis-rlp.de/data/bdom20rgbi/) available as open data
+- historical data available on request for processing fee (75 €/hour)
 - [source](https://lvermgeo.rlp.de/fileadmin/lvermgeo/pdf/produktblaetter/Laserpunkte.pdf)
 
 
@@ -243,7 +215,7 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 3: likely in 2025
 - [DTM1](https://www.shop.lvgl.saarland.de/index.php?option=com_virtuemart&view=category&virtuemart_category_id=1060&Itemid=156), [DSM1](https://www.shop.lvgl.saarland.de/index.php?option=com_virtuemart&view=category&virtuemart_category_id=1066&Itemid=156) and [Point Cloud](https://www.shop.lvgl.saarland.de/index.php?option=com_virtuemart&view=category&virtuemart_category_id=1067&Itemid=156) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2024
 - only thinned Point Cloud available with 4 points/m² and without intensity values
-- iDSM (20 cm) available as open data
+- [iDSM (20 cm)](https://www.shop.lvgl.saarland.de/index.php?option=com_virtuemart&view=category&virtuemart_category_id=1117&Itemid=156) available as open data
 
 
 ### [Saxony-Anhalt](https://geodatenportal.sachsen-anhalt.de/gfds/de/gdp-open-data.html)
@@ -255,7 +227,7 @@ Geodata collection, administration, and distribution in Germany operates primari
 - currently only available for a small region (Halle) through open data platform, other data on request for processing fee of 190€ per dataset plus fee for processing time
 - 6-year cycle planned
 - DSM1 based on ALS data not available (neither open data nor commercial)
-- [iDSM](https://www.lvermgeo.sachsen-anhalt.de/de/gdp-dom-bdom-lsa.html) (20 cm) available as open data, updated every 2 years
+- [iDSM (20 cm)](https://www.lvermgeo.sachsen-anhalt.de/de/gdp-dom-bdom-lsa.html) available as open data
 
 
 ### [Saxony](https://www.geodaten.sachsen.de/downloadbereich-digitale-hoehenmodelle-4851.html)
@@ -274,7 +246,7 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 1:  in 2005-2007
   - campaign 2:  4 points/m² in 2021-2026 
 - [DTM1](https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-dgm1.html) available as open data since 2023
-- iDSM (20 cm) available as open data, updated every 2 years
+- [iDSM (20 cm)](https://geodaten.schleswig-holstein.de/gaialight-sh/_apps/dladownload/dl-bdom.html) available as open data, updated every 2 years
 - Point Cloud and DSM1 based on ALS data not available (neither open data nor commercial)
 - DSM1 is in preparation
 
