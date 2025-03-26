@@ -13,17 +13,17 @@ Most European countries provide ALS data free of charge, an overview can be seen
 - LAZ, DTM025, DSM1, flow accumulation, hillshade, skyview factor, solar irradiance
 
 ### Czech Republic
-- Open Data since 2023 ([Open Data Announcment](https://t.co/hL7nHeL0hk))
+- Open Data since 2023
 
 ### [Denmark](https://dataforsyningen.dk/data/3931)
-- Open Data since 2013 ([source](https://groups.google.com/g/lastools/c/m2OKr241LOo))
+- Open Data [since 2013](https://groups.google.com/g/lastools/c/m2OKr241LOo)
 - average density of 4-5 points/m2 for data collected in 2014/15 and 8 points/m2 for data from 2018 onwards
 - updated, approx. 1/5 per year
 - 13 classifications, which include terrain, building, vegetation and bridge points
 - DTM04/ DSM04/Pointcloud/... (login required)
 
 ### [England](https://environment.data.gov.uk/dataset/2e8d0733-4f43-48b4-9e51-631c25d1b0a9)
-- Open Data since 2015 ([source](https://environment.data.gov.uk/dataset/2e8d0733-4f43-48b4-9e51-631c25d1b0a9))
+- Open Data [since 2015](https://environment.data.gov.uk/dataset/2e8d0733-4f43-48b4-9e51-631c25d1b0a9)
 - DSM/DTM/Pointcloud
 - First data from 2006
 - 5km² tiles
@@ -40,7 +40,7 @@ Most European countries provide ALS data free of charge, an overview can be seen
 - 2008-2011, 2012-2015, 2017-2020, 2021-
 
 ### [Finland](https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/product-descriptions/laser-scanning-data-5-p)
-- Open Data (since at least 2017)
+- Open Data [since 2012](https://groups.google.com/g/lastools/c/XUoOxUlg2kY)
 - Pointcloud (0.5 points per m², LAZ 1.2)
 - updated annually ([map](https://tilannekartta.maanmittauslaitos.fi/laserkeilaus))
 - 2008-2019, 2020-
@@ -83,12 +83,12 @@ Digital Height Model (or DHM). The MNH by definition removes the altitude of the
 - same as Switzerland
 
 ### [Luxembourg](https://lidar.geoportail.lu/)
-- obtained in 2019
-- 15 Points per m²
+- campaign 1: 15 points/m² in 2019
+- [campaign 2](https://data.public.lu/fr/datasets/lidar-2024-releve-3d-du-territoire-luxembourgeois/): 30 points/m² in 2024
 - [about the data](https://data.public.lu/en/datasets/lidar-2019-releve-3d-du-territoire-luxembourgeois/)
 
 ### [Netherlands](https://www.ahn.nl/)
-- Open Data (since at least 2017)
+- Open Data [since 2014](https://groups.google.com/g/lastools/c/Y0fdLGEJ6XE)
 - [Dataset: Actueel Hoogtebestand Nederland (AHN3)](https://www.pdok.nl/introductie/-/article/actueel-hoogtebestand-nederland-ahn3-)
 - [AHN4](https://www.ahn.nl/_flysystem/media/ahn4_in_drie_jaar._en_daarna_-_jeroen_leusink_hwh.pdf)
 - 4 nationwide campaigns (5th is starting 2023)
@@ -98,6 +98,8 @@ Digital Height Model (or DHM). The MNH by definition removes the altitude of the
 - more information in this [presentation](https://www.ahn.nl/_flysystem/media/ahn4_in_drie_jaar._en_daarna_-_jeroen_leusink_hwh.pdf) 
 
 ### [Norway](https://hoydedata.no/LaserInnsyn2/)
+- Open Data
+
 ### [Poland](https://mapy.geoportal.gov.pl/imap/Imgp_2.html)
 https://geoportal.gov.pl/en/dane/dane-pomiarowe-lidar
 - Open Data (DSM/DTM/Pointcloud)
