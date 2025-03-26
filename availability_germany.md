@@ -1,52 +1,6 @@
 
 ## Lidar availability - Germany
 
-## National data
-
-According to [Virtanen et al. (2017)](https://doi.org/10.3390/ijgi6080243) "topographic databases maintained by national mapping agencies are currently the most common nationwide data sets in geo-information", however this is not true for Germany. Until now there is no single data set which is available for entire Germany. Instead there are datasets with varying conditions by each federal state. However, there are ongoing efforts to generate such data. The project Digital Twin Germany aims to acquire high density Point Cloud data for Germany. The project is run by the *Federal Agency for Cartography and Geodesy* (BKG), Germany's national mapping agency. Data acquisition was supposed to start in 2023 and the goal was to have a data set for entire Germany by 2024, with at least one repetition some years later. It was also planned that the data would be mapped by Geiger-Mode or Single Photon Sensor (Leica SPL100) in the vegetation period [Hopfstock et al. (2021)](https://doi.org/10.12902/zfv-0379-2021). Current plans are to collect data for all of Germany in the vegetation period in 2024 and 2025. It is expected that the entire dataset is available at the end of 2026, with first data in summer 2025. However, data is primarily meant for national agencies and most likely only a subset will be available as open data. 
-
-### [Digital Twin Germany](https://www.bkg.bund.de/SharedDocs/Pressemitteilungen/BKG/DE/PM_2021/211013-Digitaler_Zwilling.html)
-
-- coordinated by BKG
-- data primarily meant for government agencies
-- case study applied to Hamburg in Winter 2022 with SPL100 
-- data collection 
-  - in the vegetation period (March to October)
-  - originally planned for 2023-2024 
-  - currently planned for 2024-2025 
-  - 8 lots flown by different companies (Hexagon, BSF Swissphoto, GEOREAL, FLYCOM) with different sensors (Leica SPL100, Riegl VQ1460, Riegl VQ1560 II-S)
-  - collected in 2024: northern  Mecklenburg Western Pomerania, Saxony, North Rhine-Westphalia, Rhineland-Palatinate, western Baden-Württemberg, northeast Bavaria  
-  - repetition (3-5 year cycle) is targeted but unclear
-- data properties
-  -  point density >=40 pts/m²
-  -  simultaneous with RGB data
-  - classes
-    - Building
-    - Bridge
-    - Water
-    - Ground
-    - Power lines
-    - Low Vegetation
-    - Medium Vegetation
-    - High Vegetation
-    - Objects above ground
-    - Low Noise
-    - High Noise
-    - Unclassified
-  - 1.5 PByte data expected
-- Derived products
-  - Point Cloud with RGB-color (10 points/m²)
-  - DTM (50 cm)
-  - DSM (25 cm)
-  - classified objects (trees, wind turbines, ...)
-- Data provision
-  - thinned Point Cloud (10 points/m²) available as open data (planned)
-  - first data expected in summer 2025 (for national agencies)
-  - derived products with delay
-  - entire data expected end of 2026
-
-(sources of information: [source1](https://web.archive.org/web/20230401163651/https://www.business-geomatics.com/2022/11/17/zwillinge-gross-gedacht/), [source2](https://www.bkg.bund.de/SharedDocs/Downloads/BKG/DE/Downloads-Forschung/digitaler-zwilling-praesentation.pdf?__blob=publicationFile&v=2), [source3](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf), [source4](http://www.eurosdr.net/sites/default/files/images/inline/8-digital_twin_of_germany.pdf), [source5](https://ausschreibungen-deutschland.de/2014266_Befliegung_DigiZDEReferenznummer_der_Bekanntmachung_B_1214_-_090722VV__1_2023_Bonn), [source6](https://wiki.gdi-de.org/x/NwBCTw), [source7](https://fragdenstaat.de/anfrage/informationen-zum-projekt-digitaler-zwilling-deutschland/))
-
 ## Federal data
 
 Geodata collection, administration, and distribution in Germany operates primarily through federal structures managed by the land surveying and cadastral authorities of the 16 federal states. While the *Working Committee of the Surveying Authorities of the States of the Federal Republic of Germany* (AdV) establishes guidelines and standards for digital [terrain models](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=2b14073e-de6b-1f71-96e7-436303dd7d12&uBasVariant=11111111-1111-1111-1111-111111111111), [surface models](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=da14073e-de6b-1f71-96e7-436303dd7d12&uBasVariant=11111111-1111-1111-1111-111111111111), and [Point Clouds](https://www.adv-online.de/AdV-Produkte/Standards-und-Produktblaetter/Standards-der-Geotopographie/binarywriterservlet?imgUid=6b510f6e-a708-d081-505a-20954cd298e1&uBasVariant=11111111-1111-1111-1111-111111111111), the availability and specifications of airborne laser scanning data vary across space and time. For cross-state applications and nationwide analyses, a comprehensive understanding of data availability is essential to ensure efficient project planning and consistent data quality. This compilation of federal ALS data availability draws from state mapping agencies' official websites, direct communication with authorities and additional sources wehere possible.
@@ -54,9 +8,9 @@ Geodata collection, administration, and distribution in Germany operates primari
 ([source](https://www.adv-online.de/AdV-Produkte/Geotopographie/Digitale-Gelaendemodelle/DGM1/binarywriterservlet?imgUid=7fd603aa-0a3c-a491-d853-6fc506488e77&uBasVariant=11111111-1111-1111-1111-111111111111))
 
 
-*Overview about availability of federal ALS data in Germany (detailed information below)*
+*Overview about availability of federal ALS data in Germany (detailed information below)*  
 :white_check_mark: *= open data,* :heavy_dollar_sign: *= processing fee,* :x: *= not available* 
-:black_circle: *= statewide coverage,* :radio_button: *= partial coverage*
+:black_circle: *= complete,* :radio_button: *= ongoing*
 
 | Federal State                 | DTM                | DSM                | Point Cloud         | # Campaigns                                                            |
 |-------------------------------|--------------------|--------------------|---------------------|------------------------------------------------------------------------|
@@ -68,9 +22,9 @@ Geodata collection, administration, and distribution in Germany operates primari
 | [Hamburg](#hamburg)                       | :white_check_mark: | :x:                | :x:                 | :black_circle::black_circle::black_circle:                             |
 | [Hesse](#hesse)                         | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
 | [Lower Saxony](#lower-saxony)                  | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: | :black_circle::radio_button:                                           |
-| [Mecklenburg-Western Pomerania](#mecklenburg-western-pomerania) | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: |                                                                        |
+| [Mecklenburg-Western Pomerania](#mecklenburg-western-pomerania) | :white_check_mark: | :white_check_mark: | :heavy_dollar_sign: |   :black_circle::radio_button: |
 | [North Rhine-Westphalia](#north-rhine-westphalia)        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::black_circle::radio_button::radio_button: |
-| [Rhineland-Palatinate](#rhineland-palatinate)          | :white_check_mark: | :x:                | :white_check_mark:  |                                                                        |
+| [Rhineland-Palatinate](#rhineland-palatinate)          | :white_check_mark: | :x:                |  :heavy_dollar_sign: |   :black_circle::black_circle::radio_button:  |
 | [Saarland](#saarland)                      | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle:                                           |
 | [Saxony](#saxony)                        | :white_check_mark: | :white_check_mark: | :white_check_mark:  | :black_circle::black_circle::radio_button:                             |
 | [Saxony-Anhalt](#saxony-anhalt)                 | :white_check_mark: | :x:                | :white_check_mark:  | :black_circle::radio_button:                                           |
@@ -193,14 +147,12 @@ Geodata collection, administration, and distribution in Germany operates primari
 ### [Rhineland-Palatinate](https://lvermgeo.rlp.de/de/produkte/geotopografie/3d-geodaten/digitale-gelaendemodelle-dgm/)
 
 - statewide ALS campaign complete
-  - dirst data since 2002
-  - 4 points/m² until 2014
-  - 8 points/m² since 2014
-  - current data from 2019-2024 ([overview](https://lvermgeo.rlp.de/fileadmin/lvermgeo/pdf/geodaten/Aktualitaet_Laserscanbefliegung.pdf))
-- [DTM1](https://geobasis-rlp.de/data/dgm1/) and [Point Cloud](https://geobasis-rlp.de/data/las/) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2024
-- Point Clouds available separated into terrain (last returns) and object points (first returns) 
-- 9-year cycle until 2021
-- 4-year cycle since 2022 
+  - campaign 1: 4 points/m² in 2002-2013 (?)
+  - campaign 2: 8 points/m² in 2014-2021 (?)
+  - campaign 3: 8 points/m² in 2022-2025 (?) ([overview](https://lvermgeo.rlp.de/fileadmin/lvermgeo/pdf/geodaten/Aktualitaet_Laserscanbefliegung.pdf))
+- [DTM1](https://geobasis-rlp.de/data/dgm1/) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2024
+- full [Point Cloud](https://geobasis-rlp.de/data/las/) not available as open data
+- object points (first returns) and terrain points (last returns) available as open data 
 - DSM1 based on ALS data not available (neither open data nor commercial)
 - [iDSM (20 cm)](https://geobasis-rlp.de/data/bdom20rgbi/) available as open data
 - historical data available on request for processing fee (75 €/hour)
@@ -237,7 +189,7 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 2: 4 points/m² in 2015-2020
   - campaign 3: 4 points/m² in 2020-2026
 - 6-year cycle since 2020/2021 ([planned overview](https://www.landesvermessung.sachsen.de/prod_dhm_stadt/plan_dhm_stadt.pdf))
-- [DTM1, DSM1 and Point Cloud](https://www.landesvermessung.sachsen.de/download-offene-geodaten-und-testdaten-8647.html) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0))
+- [DTM1, DSM1 and Point Cloud](https://www.landesvermessung.sachsen.de/download-offene-geodaten-und-testdaten-8647.html) available as open data ([dl-by-de/2.0](https://www.govdata.de/dl-de/by-2-0)) since 2019
 - [source](https://www.landesvermessung.sachsen.de/digitale-hoehen-und-stadtmodelle-8641.html)
 
 ### [Schleswig-Holstein](https://www.schleswig-holstein.de/DE/Landesregierung/LVERMGEOSH/Service/serviceGeobasisdaten/geodatenService_Geobasisdaten_DGM.html)
@@ -260,3 +212,50 @@ Geodata collection, administration, and distribution in Germany operates primari
   - campaign 4:  in 2020-2025, ([overview](https://tlbg.thueringen.de/fileadmin/TLBG/Vertrieb/uebersichten/dgm/tlbg-uebersicht-dgm-2020-2025_.pdf))
 - 6-year cycle
 - [DTM1, DSM1 and Point Cloud](https://geoportal.thueringen.de/gdi-th/download-offene-geodaten/download-hoehendaten) available as open data since 2017
+
+
+## National data
+
+According to [Virtanen et al. (2017)](https://doi.org/10.3390/ijgi6080243) "topographic databases maintained by national mapping agencies are currently the most common nationwide data sets in geo-information", however this is not true for Germany. Until now there is no single data set which is available for entire Germany. Instead there are datasets with varying conditions by each federal state. However, there are ongoing efforts to generate such data. The project Digital Twin Germany aims to acquire high density Point Cloud data for Germany. The project is run by the *Federal Agency for Cartography and Geodesy* (BKG), Germany's national mapping agency. Data acquisition was supposed to start in 2023 and the goal was to have a data set for entire Germany by 2024, with at least one repetition some years later. It was also planned that the data would be mapped by Geiger-Mode or Single Photon Sensor (Leica SPL100) in the vegetation period [Hopfstock et al. (2021)](https://doi.org/10.12902/zfv-0379-2021). Current plans are to collect data for all of Germany in the vegetation period in 2024 and 2025. It is expected that the entire dataset is available at the end of 2026, with first data in summer 2025. However, data is primarily meant for national agencies and most likely only a subset will be available as open data. 
+
+### [Digital Twin Germany](https://www.bkg.bund.de/SharedDocs/Pressemitteilungen/BKG/DE/PM_2021/211013-Digitaler_Zwilling.html)
+
+- coordinated by BKG
+- data primarily meant for government agencies
+- case study applied to Hamburg in Winter 2022 with SPL100 
+- data collection 
+  - in the vegetation period (March to October)
+  - originally planned for 2023-2024 
+  - currently planned for 2024-2025 
+  - 8 lots flown by different companies (Hexagon, BSF Swissphoto, GEOREAL, FLYCOM) with different sensors (Leica SPL100, Riegl VQ1460, Riegl VQ1560 II-S)
+  - collected in 2024: northern  Mecklenburg Western Pomerania, Saxony, North Rhine-Westphalia, Rhineland-Palatinate, western Baden-Württemberg, northeast Bavaria  
+  - repetition (3-5 year cycle) is targeted but unclear
+- data properties
+  -  point density >=40 pts/m²
+  -  simultaneous with RGB data
+  - classes
+    - Building
+    - Bridge
+    - Water
+    - Ground
+    - Power lines
+    - Low Vegetation
+    - Medium Vegetation
+    - High Vegetation
+    - Objects above ground
+    - Low Noise
+    - High Noise
+    - Unclassified
+  - 1.5 PByte data expected
+- Derived products
+  - Point Cloud with RGB-color (10 points/m²)
+  - DTM (50 cm)
+  - DSM (25 cm)
+  - classified objects (trees, wind turbines, ...)
+- Data provision
+  - thinned Point Cloud (10 points/m²) available as open data (planned)
+  - first data expected in summer 2025 (for national agencies)
+  - derived products with delay
+  - entire data expected end of 2026
+
+(sources of information: [source1](https://web.archive.org/web/20230401163651/https://www.business-geomatics.com/2022/11/17/zwillinge-gross-gedacht/), [source2](https://www.bkg.bund.de/SharedDocs/Downloads/BKG/DE/Downloads-Forschung/digitaler-zwilling-praesentation.pdf?__blob=publicationFile&v=2), [source3](https://www.bdvi.de/application/files/8716/9565/1129/FORUM_3-2023_Digitaler_Zwilling.pdf), [source4](http://www.eurosdr.net/sites/default/files/images/inline/8-digital_twin_of_germany.pdf), [source5](https://ausschreibungen-deutschland.de/2014266_Befliegung_DigiZDEReferenznummer_der_Bekanntmachung_B_1214_-_090722VV__1_2023_Bonn), [source6](https://wiki.gdi-de.org/x/NwBCTw), [source7](https://fragdenstaat.de/anfrage/informationen-zum-projekt-digitaler-zwilling-deutschland/))
