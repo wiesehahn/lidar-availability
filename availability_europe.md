@@ -20,10 +20,11 @@ Most European countries provide ALS data free of charge, an overview can be seen
 - [source](https://lidarmag.com/2024/09/22/elevations-for-the-nations-part-ii/)
 
 ### Czech Republic
-- Open Data since 2023 ([Open Data Announcment](https://t.co/hL7nHeL0hk))
+- Open Data since 2023
 
 ### [Denmark](https://dataforsyningen.dk/data/3931)
-- Open Data since 2013 ([source](https://groups.google.com/g/lastools/c/m2OKr241LOo))
+- Open Data [since 2013](https://groups.google.com/g/lastools/c/m2OKr241LOo)
+- Open Data [since 2013](https://groups.google.com/g/lastools/c/m2OKr241LOo)
 - three national lidar campaigns
   - campaign 1: 0.5 points/m² in 2007
   - campaign 2: 4-6 points/m² in 2014-2015
@@ -33,7 +34,7 @@ Most European countries provide ALS data free of charge, an overview can be seen
 - [source](https://lidarmag.com/2023/10/07/elevations-for-the-nations/)
 
 ### [England](https://environment.data.gov.uk/dataset/2e8d0733-4f43-48b4-9e51-631c25d1b0a9)
-- Open Data since 2015
+- Open Data [since 2015](https://environment.data.gov.uk/dataset/2e8d0733-4f43-48b4-9e51-631c25d1b0a9)
 - DSM/DTM/Pointcloud
 - First data from 2006
 - national campaign
@@ -53,7 +54,8 @@ Most European countries provide ALS data free of charge, an overview can be seen
 - [source](https://geoportaal.maaamet.ee/eng/Spatial-Data/Elevation-Data-p308.html), [source](https://newsroom.riegl.international/2021/01/25/estonian-land-board-uses-riegl-vq-1560i-airborne-lidar-mapping-system-for-nationwide-coverage/), [source](https://kosmos.ut.ee/en/content/airborne-lidar-measurements-help-forest-owners-detect-changes), [source](https://tech.marksblogg.com/lidar-estonia.html), [source](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://publications.jrc.ec.europa.eu/repository/bitstream/JRC126223/jrc126223_jrc126223_lidaropensourcedata.pdf&ved=2ahUKEwiOgubigq-LAxUv_QIHHR25N-4QFnoECCMQAQ&usg=AOvVaw0u004Yu7YgAusljJ4iP49u)
 
 ### [Finland](https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/expert-users/product-descriptions/laser-scanning-data-5-p)
-- Open Data (since at least 2017)
+- Open Data [since 2012](https://groups.google.com/g/lastools/c/XUoOxUlg2kY)
+- Pointcloud (0.5 points per m², LAZ 1.2)
 - updated annually ([map](https://tilannekartta.maanmittauslaitos.fi/laserkeilaus))
 - two national campaigns
   - campaign 1: 0.5 points/m² in 2008-2019
@@ -75,16 +77,19 @@ Most European countries provide ALS data free of charge, an overview can be seen
 - same as Switzerland
 
 ### [Luxembourg](https://lidar.geoportail.lu/)
-- national campaign: 15 points/m² in 2019
+- campaign 1: 15 points/m² in 2019
+- [campaign 2](https://data.public.lu/fr/datasets/lidar-2024-releve-3d-du-territoire-luxembourgeois/): 30 points/m² in 2024
+- [about the data](https://data.public.lu/en/datasets/lidar-2019-releve-3d-du-territoire-luxembourgeois/)
 - [source](https://lidar.geoportail.lu/), [source](https://data.public.lu/en/datasets/lidar-2019-releve-3d-du-territoire-luxembourgeois/)
 
-### [Netherlands](https://www.ahn.nl/dataroom)
+### [Netherlands](https://www.ahn.nl/)
+- Open Data [since 2014](https://groups.google.com/g/lastools/c/Y0fdLGEJ6XE)
 - five national campaigns
   - campaign 1: ~1 point/m² in 1997-2004
   - campaign 2: 6-10 points/m² in 2007-2012
   - campaign 3: 6-10 points/m² in 2014-2019
   - campaign 4: 10-14 points/m² in 2020-2022
-  - campaign 5: 1 points/m² in 2023-2025
+  - campaign 5: 10-15 points/m² in 2023-2025
 - Pointcloud, DSM05, DTM05 available as open data (since at least 2017)
 - point cloud from image matching yearly since 2018
 - [source](https://www.ahn.nl/_flysystem/media/ahn4_in_drie_jaar._en_daarna_-_jeroen_leusink_hwh.pdf)
